@@ -1,13 +1,3 @@
---[[	
-
-	|	NEVERLOSE	UI	|
-	Fuck Synapse X
-		THIS UI MAKE BY CAT_SUS		
-		original Neverlose
-		
-		[https://neverlose.cc/] - csgo cheat
-]]
-
 local LocalPlayer = game:GetService('Players').LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 local InputService = game:GetService('UserInputService');
@@ -130,7 +120,6 @@ local NEVERLOSE = {
 	_Name="NEVERLOSE"
 }
 
-print(NEVERLOSE._Name..":",NEVERLOSE._Version..':',[[https://neverlose.cc/]],": UI BY OWNER BEDOL HUB","__ui")
 
 function NEVERLOSE:Theme(name)
 	name = tostring(name or "original"):lower()
